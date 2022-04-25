@@ -28,6 +28,10 @@ const ProcessSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
+    modalida:{
+        type: String,
+        required: true,
+    },
     history:{
         type: [],
        
